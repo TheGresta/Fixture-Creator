@@ -1,0 +1,153 @@
+Trabzon Spor#1#0#Hatay Spor
+Fenerbahce#2#0#Besiktas
+Karagumruk#1#0#Galatasaray
+Alanya Sport#0#1#Altay
+Konya Spor#2#0#Adana Demir Spor
+Kayseri Spor#2#0#Gaziantep FK
+Sivas Spor#2#0#Istanbul Basaksehir
+Antalya Spor#0#1#Yeni Malatya Sport
+Goztepe#0#2#Giresun Spor
+Trabzon Spor#2#0#Besiktas
+Hatay Spor#1#0#Galatasaray
+Fenerbahce#0#1#Altay
+Karagumruk#0#2#Adana Demir Spor
+Alanya Sport#2#0#Gaziantep FK
+Konya Spor#2#0#Istanbul Basaksehir
+Kayseri Spor#0#0#Yeni Malatya Sport
+Sivas Spor#0#1#Giresun Spor
+Antalya Spor#0#1#Goztepe
+Trabzon Spor#3#0#Galatasaray
+Besiktas#0#1#Altay
+Hatay Spor#2#0#Adana Demir Spor
+Fenerbahce#0#0#Gaziantep FK
+Karagumruk#1#0#Istanbul Basaksehir
+Alanya Sport#2#0#Yeni Malatya Sport
+Konya Spor#2#0#Giresun Spor
+Kayseri Spor#0#0#Goztepe
+Sivas Spor#0#2#Antalya Spor
+Trabzon Spor#0#1#Altay
+Galatasaray#0#0#Adana Demir Spor
+Besiktas#0#2#Gaziantep FK
+Hatay Spor#3#0#Istanbul Basaksehir
+Fenerbahce#0#1#Yeni Malatya Sport
+Karagumruk#0#1#Giresun Spor
+Alanya Sport#2#0#Goztepe
+Konya Spor#2#0#Antalya Spor
+Kayseri Spor#3#0#Sivas Spor
+Trabzon Spor#2#0#Adana Demir Spor
+Altay#2#0#Gaziantep FK
+Galatasaray#2#0#Istanbul Basaksehir
+Besiktas#0#1#Yeni Malatya Sport
+Hatay Spor#0#0#Giresun Spor
+Fenerbahce#0#1#Goztepe
+Karagumruk#0#0#Antalya Spor
+Alanya Sport#3#0#Sivas Spor
+Konya Spor#2#0#Kayseri Spor
+Trabzon Spor#2#0#Gaziantep FK
+Adana Demir Spor#3#0#Istanbul Basaksehir
+Altay#2#0#Yeni Malatya Sport
+Galatasaray#0#1#Giresun Spor
+Besiktas#0#1#Goztepe
+Hatay Spor#3#0#Antalya Spor
+Fenerbahce#2#0#Sivas Spor
+Karagumruk#0#2#Kayseri Spor
+Alanya Sport#1#0#Konya Spor
+Trabzon Spor#3#0#Istanbul Basaksehir
+Gaziantep FK#0#0#Yeni Malatya Sport
+Adana Demir Spor#0#0#Giresun Spor
+Altay#2#0#Goztepe
+Galatasaray#2#0#Antalya Spor
+Besiktas#0#0#Sivas Spor
+Hatay Spor#2#0#Kayseri Spor
+Fenerbahce#0#1#Konya Spor
+Karagumruk#0#1#Alanya Sport
+Trabzon Spor#1#0#Yeni Malatya Sport
+Istanbul Basaksehir#0#1#Giresun Spor
+Gaziantep FK#0#0#Goztepe
+Adana Demir Spor#0#0#Antalya Spor
+Altay#3#0#Sivas Spor
+Galatasaray#0#0#Kayseri Spor
+Besiktas#0#1#Konya Spor
+Hatay Spor#0#1#Alanya Sport
+Fenerbahce#1#0#Karagumruk
+Trabzon Spor#0#0#Giresun Spor
+Yeni Malatya Sport#2#0#Goztepe
+Istanbul Basaksehir#0#1#Antalya Spor
+Gaziantep FK#3#0#Sivas Spor
+Adana Demir Spor#0#1#Kayseri Spor
+Altay#2#0#Konya Spor
+Galatasaray#0#1#Alanya Sport
+Besiktas#0#1#Karagumruk
+Hatay Spor#1#0#Fenerbahce
+Trabzon Spor#2#0#Goztepe
+Giresun Spor#2#0#Antalya Spor
+Yeni Malatya Sport#2#0#Sivas Spor
+Istanbul Basaksehir#0#2#Kayseri Spor
+Gaziantep FK#0#1#Konya Spor
+Adana Demir Spor#0#1#Alanya Sport
+Altay#2#0#Karagumruk
+Galatasaray#1#0#Fenerbahce
+Besiktas#0#1#Hatay Spor
+Trabzon Spor#3#0#Antalya Spor
+Goztepe#2#0#Sivas Spor
+Giresun Spor#1#0#Kayseri Spor
+Yeni Malatya Sport#0#1#Konya Spor
+Istanbul Basaksehir#0#1#Alanya Sport
+Gaziantep FK#3#0#Karagumruk
+Adana Demir Spor#1#0#Fenerbahce
+Altay#2#0#Hatay Spor
+Galatasaray#2#0#Besiktas
+Trabzon Spor#3#0#Sivas Spor
+Antalya Spor#0#2#Kayseri Spor
+Goztepe#0#1#Konya Spor
+Giresun Spor#0#1#Alanya Sport
+Yeni Malatya Sport#2#0#Karagumruk
+Istanbul Basaksehir#0#1#Fenerbahce
+Gaziantep FK#0#1#Hatay Spor
+Adana Demir Spor#3#0#Besiktas
+Altay#2#0#Galatasaray
+Trabzon Spor#2#0#Kayseri Spor
+Sivas Spor#0#2#Konya Spor
+Antalya Spor#0#1#Alanya Sport
+Goztepe#2#0#Karagumruk
+Giresun Spor#2#0#Fenerbahce
+Yeni Malatya Sport#1#0#Hatay Spor
+Istanbul Basaksehir#1#0#Besiktas
+Gaziantep FK#1#0#Galatasaray
+Adana Demir Spor#0#1#Altay
+Trabzon Spor#0#1#Konya Spor
+Kayseri Spor#0#1#Alanya Sport
+Sivas Spor#1#0#Karagumruk
+Antalya Spor#0#1#Fenerbahce
+Goztepe#1#0#Hatay Spor
+Giresun Spor#2#0#Besiktas
+Yeni Malatya Sport#2#0#Galatasaray
+Istanbul Basaksehir#0#1#Altay
+Gaziantep FK#1#0#Adana Demir Spor
+Trabzon Spor#0#1#Alanya Sport
+Konya Spor#2#0#Karagumruk
+Kayseri Spor#1#0#Fenerbahce
+Sivas Spor#0#2#Hatay Spor
+Antalya Spor#1#0#Besiktas
+Goztepe#2#0#Galatasaray
+Giresun Spor#0#1#Altay
+Yeni Malatya Sport#1#0#Adana Demir Spor
+Istanbul Basaksehir#0#2#Gaziantep FK
+Trabzon Spor#2#0#Karagumruk
+Alanya Sport#2#0#Fenerbahce
+Konya Spor#2#0#Hatay Spor
+Kayseri Spor#3#0#Besiktas
+Sivas Spor#0#1#Galatasaray
+Antalya Spor#0#1#Altay
+Goztepe#1#0#Adana Demir Spor
+Giresun Spor#1#0#Gaziantep FK
+Yeni Malatya Sport#2#0#Istanbul Basaksehir
+Trabzon Spor#3#0#Fenerbahce
+Karagumruk#0#1#Hatay Spor
+Alanya Sport#2#0#Besiktas
+Konya Spor#2#0#Galatasaray
+Kayseri Spor#0#1#Altay
+Sivas Spor#0#2#Adana Demir Spor
+Antalya Spor#1#0#Gaziantep FK
+Goztepe#2#0#Istanbul Basaksehir
+Giresun Spor#3#0#Yeni Malatya Sport

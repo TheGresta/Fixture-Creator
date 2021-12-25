@@ -1,0 +1,10 @@
+﻿  MyForm.cpp
+c:\users\dincf\desktop\oop proje\cppteams2017\vs.h(657): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\dincf\desktop\oop proje\cppteams2017\vs.h(658): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\dincf\desktop\oop proje\cppteams2017\vs.h(663): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dincf\desktop\oop proje\cppteams2017\vs.h(664): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dincf\desktop\oop proje\cppteams2017\myform.h(724): warning C4101: 'calculator': unreferenced local variable
+  TeamDetail.cpp
+  Generating Code...
+  Calculator.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CppTeams2017.vcxproj -> C:\Users\DincF\Desktop\OOP proje\x64\Debug\CppTeams2017.exe
