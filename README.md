@@ -20,18 +20,18 @@ We can create teams as we like. After we create the teams, program creates playe
 With this screen, we can list our teams information. The user can add or remove any team. When the user creates a team, the program needs a team name, manager name and team line-up. Line-up values are set as “4-4-2” at the start but the user can change it.
 Program shows created team’s informations on screen. Each column corresponds as below:
 
-•	Team No
-•	Team’s Short Name
-•	Team’s Name
-•	Team’s Manager’s Name
+*	Team No
+*	Team’s Short Name
+*	Team’s Name
+*	Team’s Manager’s Name
 
 When the team’s creation is done, the program creates all the players with the given line-up informations. 
 Example for “4-4-2” line-up:
 
-•	1 Goalkeeper
-•	4 Defender
-•	4 Midfielder
-•	2 Forward
+*	1 Goalkeeper
+*	4 Defender
+*	4 Midfielder
+*	2 Forward
 
 Each player has a random name, no, age and power.
 
