@@ -69,9 +69,102 @@ In the match detail screen, the user can see both team’s information and playe
 *	Average
 *	Total score
 
-## Algorithm
+# Algorithm
 
-### Scheduling algorithm
+## Scheduling algorithm
+
+Let’s say “n” is our number of competitors. With this process, we can calculate how many games require pure round robin tournament.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376465-8a0b7854-e117-4e67-96e5-f2430ca4b2c6.png" alt="1"/>
+</p>
+
+* If “n” is even:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376473-ed19f7f1-0576-4437-8448-3cfa21e21762.png" alt="2"/>
+</p>
+
+* If “n” is odd:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376476-a45b5e5f-c93d-48cf-9e4a-a2d5af2d20db.png" alt="3"/>
+</p>
+
+## Circle method
+
+The circle method is the standard algorithm to create a schedule for a round-robin tournament. All competitors are assigned to numbers, and then paired in the first round:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376481-49403780-ff53-41bb-93b2-2f47b5a0bd9d.png" alt="4"/>
+</p>
+
+Next, one of the competitors in the first or last column of the table is fixed (number one in this example) and the others rotated clockwise one position.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376488-d529ee20-3440-44ff-9eeb-16098495a7bf.png" alt="5"/>
+</p>
+
+This is repeated until you end up almost back at the initial position:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147376491-ad624850-7307-4285-866b-90ed073c0013.png" alt="6"/>
+</p>
+
+## Creating players
+
+### Name
+
+There are two text files in our program. First one has 500 random different names and other one has 500 different random surnames. When the program creates the name, it picks one random name and one random surname from each file and puts them together. After that, we check if there is any same name that we have created before. If there is not, we set our players’ name.
+
+### Player Number
+
+Numbers can be between 1 and 99. It is randomly generated but, in each generation, the program checks if there is a same number created before.
+
+### Age
+
+Age can be between 18 and 36. But average age of the team cannot be less than 25 and more than 32. So, the program creates 11 random ages between 18 and 36. Calculates average of all the ages. If the average is more than 32 or less than 25, it creates random new numbers until the average is achieved.
+
+### Power
+
+We use the same process here as the age. But the power values cannot be less than 30 and more than 100. And average power of the team cannot be less than 60. So, we do the same loop here until the average is achieved.
+
+### Placement
+
+When the user creates a team, we get a line-up information. For example, “4-4-2”. After we create all player’s information. We put all the information together and distribute placements desired for each player. 
+
+## Match Final Score
+
+Let’s explain this in an example. There is two team called “A” and “B”. We want to calculate the result of the match between the two teams.
+
+First, we need some info:
+*	Average power of the defense players: DPO
+*	Average power of the midfielders: OSPO
+*	Average power of the forward players: FPO
+*	Average power of the team: TOP
+
+Now we need the score values of each team:
+*	A team score: A.Goal
+*	B team score: B.Goal
 
 
+At the start, we give these teams a random score between 0 and 6. For example let’s say it is 3-1.  In this situation:
+*	A.Goal = 3
+*	B.Goal = 1
+Let’s start to calculate the result of the match. (Don’t forget the goal value cannot be less than 0)
 
+If (A.FPO > B.FPO) A.Goal++ (A.Goal = 4 , B.Goal = 1)
+If (B.FPO > A.FPO) B. Goal ++ (A.Goal = 3 , B. Goal = 2)
+If (A.DPO > B.DPO) B. Goal -- (A.Goal = 3 , B. Goal = 0)
+If (B.DPO > A.DPO) A.Goal -- (A.Goal = 2 , B. Goal = 1)
+If (A.OSPO > B.OSPO) A.Goal ++ and B. Goal -- (A.Goal = 4 , B. Goal = 0)
+If (B.OSPO > A.OSPO) B. Goal ++ and A. Goal -- (A.Goal = 2 , B. Goal = 2)
+
+If (A.TOP > B.TOP) A. Goal ++ or B. Goal -- (One of the relevant conditions will be chosen randomly)
+If (B.TOP > A.TOP) B. Goal ++ or A. Goal -- (One of the relevant conditions will be chosen randomly)
+
+At the end we have one score value for each team. If any one of them is less than 0, we equal that score to 0.
+
+### References
+
+https://en.wikipedia.org/wiki/Round-robin_tournament
