@@ -151,20 +151,21 @@ Now we need the score values of each team:
 At the start, we give these teams a random score between 0 and 6. For example let’s say it is 3-1.  In this situation:
 *	A.Goal = 3
 *	B.Goal = 1
+
 Let’s start to calculate the result of the match. (Don’t forget the goal value cannot be less than 0)
 
-If (A.FPO > B.FPO) A.Goal++ (A.Goal = 4 , B.Goal = 1)
-If (B.FPO > A.FPO) B. Goal ++ (A.Goal = 3 , B. Goal = 2)
-If (A.DPO > B.DPO) B. Goal -- (A.Goal = 3 , B. Goal = 0)
-If (B.DPO > A.DPO) A.Goal -- (A.Goal = 2 , B. Goal = 1)
-If (A.OSPO > B.OSPO) A.Goal ++ and B. Goal -- (A.Goal = 4 , B. Goal = 0)
-If (B.OSPO > A.OSPO) B. Goal ++ and A. Goal -- (A.Goal = 2 , B. Goal = 2)
+* If (A.FPO > B.FPO) A.Goal++ (A.Goal = 4 , B.Goal = 1)
+* If (B.FPO > A.FPO) B. Goal ++ (A.Goal = 3 , B. Goal = 2)
+* If (A.DPO > B.DPO) B. Goal -- (A.Goal = 3 , B. Goal = 0)
+* If (B.DPO > A.DPO) A.Goal -- (A.Goal = 2 , B. Goal = 1)
+* If (A.OSPO > B.OSPO) A.Goal ++ and B. Goal -- (A.Goal = 4 , B. Goal = 0)
+* If (B.OSPO > A.OSPO) B. Goal ++ and A. Goal -- (A.Goal = 2 , B. Goal = 2)
 
-If (A.TOP > B.TOP) A. Goal ++ or B. Goal -- (One of the relevant conditions will be chosen randomly)
-If (B.TOP > A.TOP) B. Goal ++ or A. Goal -- (One of the relevant conditions will be chosen randomly)
+* If (A.TOP > B.TOP) A. Goal ++ or B. Goal -- (One of the relevant conditions will be chosen randomly)
+* If (B.TOP > A.TOP) B. Goal ++ or A. Goal -- (One of the relevant conditions will be chosen randomly)
 
 At the end we have one score value for each team. If any one of them is less than 0, we equal that score to 0.
 
-### References
+# References
 
 https://en.wikipedia.org/wiki/Round-robin_tournament
